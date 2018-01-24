@@ -1,0 +1,83 @@
+
+/*Phone */
+@media (max-width:767px)  {
+  article{
+    width: 100%;
+    height: 370px;
+  }
+  #nameInput, #ciInput,#lastnameInput,#dptoInput,#locationInput{
+      width: 99%;
+  }
+  #containerEmail{
+    min-height: 46px;
+  }
+  .selectInput{
+    width: 103% !important;
+  }
+  #contForm{
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+  #containerName, #containerLastname,#contciInput,#contDptoInput,#contLocationInput,#contCondition{
+    width: 100%;
+  }
+  .marginBottom10{
+    margin-bottom: 10px;
+  }
+
+  #containerNames{
+    min-height: 94px;
+    margin-top: 10px;
+  }
+  #locationInput{
+    margin-left:0px;
+  }
+  #contCondition{
+    text-align: center;
+  }
+
+ }
+/* Tablet */
+@media (min-width:768px)  {
+  article{
+    width: 50%;
+    height: 400px;
+  }
+  #contForm{
+    padding:5% 27px;
+  }
+  #contNameInput, #contLastnameInput,#contciInput,#contDptoInput,#contLocationInput,#contCondition{
+    width: 50%;
+  }
+  #contCondition{
+    width: 49%;
+  }
+  #containerName{
+    width: 51%;
+  }
+  #locationInput{
+    width: 97%;
+  }
+  #emailInput{
+    width: 99%;
+  }
+  .selectInput{
+      width: 48%;
+  }
+}
+/* Escritorio */
+@media (min-width:1025px) { article{width: 25%;}
+  #contNameInput, #contLastnameInput, #contciInput,#contDptoInput,#contLocationInput,#contCondition{
+  width: 49%;
+  }
+  #contForm{
+    padding: 2% 30%;
+  }
+  #emailInput{
+    width: 99%;
+  }
+  .selectInput{
+    width: 47%;
+    height: 38px;
+  }
+}

@@ -1,0 +1,251 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+
+}
+header{
+  background: #000000;
+  padding:9px 0px 9px 24px;
+}
+header img{
+  display:inline;
+  float: right;
+  margin-top: -30px;
+  margin-right: 4px;
+}
+.dpInline{
+  display: inline;
+}
+
+
+#titulo{
+  color: white;
+  font-size: 24px;
+}
+#facebook{
+  float: right;
+  text-align: right;
+  color: white;
+  font-size: 14px;
+  margin-top: -22px;
+  margin-right: 41px;
+  color: #747474;
+}
+#facebookImg{
+   width:30px;
+   display: inline;
+}
+
+#sectionBanner{
+  height: 400px;
+}
+#sectionBanner, #banner{
+  height: 300px;
+  width: 100%;
+}
+#contSubtitle{
+  height: 83px;
+  background: #e4e4e4;
+}
+
+#subtitle{
+  line-height: 77px;
+  color:#000000;
+  font-size: 42px;
+  text-align: center;
+}
+
+#ContainerBox{
+  padding-left: 24px;
+  padding-top:20px;
+}
+
+.contInfoArticle h4{
+  height:57px;
+  padding-bottom: 5px;
+  font-size: 24px;
+}
+
+
+article{
+  float:left;
+  width: 25%;
+}
+article img{
+  width: 93%;
+  height: 180px;
+}
+.contInfoArticle{
+  width: 240px;
+}
+.contInfoArticle p{
+  font-size: 16px;
+}
+
+#formSection{
+  height: 600px;
+}
+#formSection hr{
+  border-top: 1px solid #aaaaaa;
+}
+#formSection h3{
+  font-size: 42px;
+  padding-bottom: 5px;
+}
+
+#locationInput,#contCondition{
+  margin-left: 5px;
+}
+.inputsStyles{
+  margin-bottom: 4px;
+  padding: 5px;
+  height: 28px;
+  font-size: 15px;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+
+}
+
+#containerEmail,#containerNames,#containerCiTerminos{
+  width: 100%;
+  min-height:59px;
+}
+#containerLocation{
+  min-height: 62px;
+}
+#containerName{
+
+  width: 49%;
+  float:left;
+}
+#nameInput,#ciInput{
+  width: 90%;
+}
+#dptoInput{
+  border-color: rgb(204, 204, 204);
+  width: 96%;
+}
+#locationInput{
+  width: 100%;
+}
+#lastnameInput{
+    width: 97%;
+}
+#emailInput{
+  width: 99%;
+}
+
+
+#contCondition{
+  display: inline;
+  width: 50%;
+  float: right;
+}
+#containerLastname{
+  width: 49%;
+  float: right
+}
+#containerEmail{
+  width: 100%;
+}
+#contDptoInput{
+  width: 50%;
+  float:left;
+
+}
+#contLocationInput{
+  width: 50%;
+  float: right
+}
+#contciInput{
+  width: 49%;
+  float:left;
+
+}
+.selectInput{
+    display: inline;
+    background: white;
+    height: 37px;
+    color: gray;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+.errorForm{
+  display: none;
+  font-size: 13px;
+  margin-bottom:10px;
+}
+
+#containerButton{
+  width: 100%;
+  height: 30px;
+  margin-top: 19px;
+}
+
+
+
+#sendButton{
+  background: #4da6e4;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  border: 0px;
+  height: 38px;
+  width: 136px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  border-radius: 4px;
+
+}
+
+.col-3{
+position: relative;
+}
+
+
+.effect{
+
+background-color: transparent;
+}
+
+.effect ~ .focus-border{
+position: absolute;
+bottom: 0;
+left: 0;
+width: 0;
+height: 2px;
+background-color: #3399FF;
+transition: 0.4s;
+}
+
+.effect:focus ~ .focus-border,
+.has-content.effect ~ .focus-border{
+width: 100%;
+transition: 0.4s;
+}
+
+.effect ~ label{
+position: absolute;
+left: 12px;
+width: 100%;
+top: 8px;
+color: #aaa;
+transition: 0.3s;
+z-index: -1;
+letter-spacing: 0.5px;
+}
+
+.effect:focus ~ label,
+.has-content.effect ~ label{
+font-size: 12px;
+top:1px;
+left:2px;
+color: #aaa;
+transition: 0.3s;
+}
+.now{
+  top:1px !important;
+  left:2px !important;
+  font-size: 12px;
+}
